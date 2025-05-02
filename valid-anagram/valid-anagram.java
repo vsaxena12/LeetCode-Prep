@@ -1,3 +1,9 @@
+// s:"anagram"
+// t:"nagaram"
+// map:{97:3,114:1,103:1,109:1,110:0}
+// a = 97; r = 114; g = 103; m = 109; n = 110
+// element:110
+
 class Solution {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length())
